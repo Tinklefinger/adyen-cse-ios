@@ -1,7 +1,7 @@
 import XCTest
-@testable import AcyenCSE
+@testable import AdyenCSE
 
-final class AcyenCSETests: XCTestCase {
+final class AdyenCSETests: XCTestCase {
 	func test_card_encryption() throws {
 		let card = ADYCard()
 		card.number = "4111111111111111"
